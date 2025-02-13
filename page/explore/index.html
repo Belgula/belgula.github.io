@@ -16,7 +16,42 @@
     <!------ Stylesheet ------>
     <link rel="stylesheet" href="../explore/style.css" />
     <!------ Queries ------>
-    <link rel="stylesheet" href="../index/queries.css" />
+    <link rel="stylesheet" href="../explore/queries.css" />
+    <style>
+      .circle-gradient {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, #ffc6c6a0 0%, rgba(255, 0, 150, 0) 80%);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -3;
+        }
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #BD1212;
+            font-size: 16px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .social-links i {
+            font-size: 30px;
+        }
+    </style>
   </head>
 
   <body>
@@ -51,10 +86,11 @@
         </ul>
       </nav>
     </header>
+    <div class="circle-gradient"></div>
     <!------ Section: Hero ------>
     <section class="courses" id="courses">
-      <div style="margin-top: 15%; padding-top: 15px;" class="explore">
-        <button onclick="goBack()" style="background: none; border: none; cursor: pointer; padding-top: 40px; position:static" >
+      <div  class="explore">
+        <button onclick="goBack()" style="background: none; border: none; cursor: pointer;" >
           <h1 style="text-align: left;color:#BD1212;" class="fas fa-arrow-left"></h1>
         </button>
         <h1  style="text-align: right;color:#BD1212; ">Explore Zone</h1>
@@ -102,16 +138,19 @@
           fakta!
         </p>
         <div class="social-links">
-          <a href="https://www.instagram.com/umminurf?igsh=MmdsNG51ZXBtdGJ4&utm_source=qr">
-            <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/umminurf">
+              <i class="fab fa-instagram"></i>
+              <span>@umminurf</span>
           </a>
-          <a href="https://www.instagram.com/vannoreen?igsh=eDRkd2pya2JtZzl4&utm_source=qr">
-            <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/vannoreen">
+              <i class="fab fa-instagram"></i>
+              <span>@vannoreen</span>
           </a>
-          <a href="https://www.instagram.com/i.ntanmala?igsh=MWI1Y2VvdDV5YTFuMw%3D%3D">
-            <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/i.ntanmala">
+              <i class="fab fa-instagram"></i>
+              <span>@i.ntanmala</span>
           </a>
-        </div>
+      </div>
       </div>
       <p class="footer-copyright">
         Copyright &copy; 2025 RISEBLOOM. All rights reserved.

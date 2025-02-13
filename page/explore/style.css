@@ -120,7 +120,7 @@
     padding-top: 50px;
   }
   .explore{
-    padding-top: 60px;
+    padding-top: 130px;
   }
   h1 {
     font-size: var(--heading-font-size-1);
@@ -269,6 +269,14 @@
     width: 100%; /* Opsional, supaya gambar responsif */
     display: block; /* Menghindari jarak ekstra */
 }
+
+.hero-img5 img {
+  padding-top: 1px;
+    width: 100%; /* Opsional, supaya gambar responsif */
+    display: block; /* Menghindari jarak ekstra */
+}
+
+
 
 .hero-content {
   padding-right: 5px;

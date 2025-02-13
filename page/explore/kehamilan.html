@@ -88,6 +88,39 @@
             color: #FF6384;
             font-size: 18px;
         }
+        .circle-gradient {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, #ffc6c6d8 0%, rgba(255, 0, 150, 0) 80%);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #BD1212;
+            font-size: 16px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .social-links i {
+            font-size: 30px;
+        }
     </style>
 
     </head>
@@ -125,10 +158,7 @@
             </nav>
         </header>
         <!------ Section: Hero ------>
-            <button onclick="goBack()" style="background: none; border: none; cursor: pointer;" >
-              <h1  class="fas fa-arrow-left overlay-text" style="color:#BD1212; left: 5%; "></h1>
-            </button>
-          
+        
 
         
         <div class="hero-img">
@@ -136,6 +166,11 @@
             
             <p class="overlay-text">APA ITU KTD?</p>
         </div>
+        <button onclick="goBack()" style="background: none; border: none; cursor: pointer;" >
+            <h1  class="fas fa-arrow-left overlay-text" style="color:#BD1212; left: 5%; margin-top: -150px; position: absolute;"></h1>
+          </button>
+          <section>
+            <
         <p class="section-desc"
             style="color: #ba1515; padding-top: 10px;width: 90%;margin: 0 auto;  padding: 10px 30px;">
             KTD merupakan suatu kondisi ketika pasangan tidak menghendaki adanya
@@ -157,6 +192,7 @@
 
             </ol>
         </div>
+        <div class="circle-gradient"></div>
         <div class="list" style="margin-top: 10px; padding-bottom: 40px;">
             <ol class="merah">
                 <p
@@ -353,7 +389,7 @@
               </div>
         </div>
 
-        <footer>
+        <footer class="hamil">
             <div class="row footer-about">
               <h3>RISE</h3>
               <p>
@@ -364,16 +400,19 @@
                 fakta!
               </p>
               <div class="social-links">
-                <a href="https://www.instagram.com/umminurf?igsh=MmdsNG51ZXBtdGJ4&utm_source=qr">
-                  <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/umminurf">
+                    <i class="fab fa-instagram"></i>
+                    <span>@umminurf</span>
                 </a>
-                <a href="https://www.instagram.com/vannoreen?igsh=eDRkd2pya2JtZzl4&utm_source=qr">
-                  <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/vannoreen">
+                    <i class="fab fa-instagram"></i>
+                    <span>@vannoreen</span>
                 </a>
-                <a href="https://www.instagram.com/i.ntanmala?igsh=MWI1Y2VvdDV5YTFuMw%3D%3D">
-                  <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/i.ntanmala">
+                    <i class="fab fa-instagram"></i>
+                    <span>@i.ntanmala</span>
                 </a>
-              </div>
+            </div>
             </div>
             <p class="footer-copyright">
               Copyright &copy; 2025 RISEBLOOM. All rights reserved.

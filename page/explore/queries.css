@@ -64,9 +64,21 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .section-desc{
+    padding-top: 20px;
+  }
+    
+  .overlay-text{
+    top:-50%;
+  }
+  .hero-img4 img {
+    padding-top: 10 px !important ;
+      width: 100%; /* Opsional, supaya gambar responsif */
+      display: block; /* Menghindari jarak ekstra */
+  }
   .courses button {
-    background: #BD1212; /* Ubah warna background */
-    border-radius: 10px; /* Tambahkan sudut melengkung */
+   
+    border-radius: 5px; /* Tambahkan sudut melengkung */
     padding: 10px 15px; /* Tambahkan padding */
 }
 .hero-img img{

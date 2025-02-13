@@ -17,6 +17,42 @@
     <link rel="stylesheet" href="../../page/tentangdiri/style.css" />
     <!------ Queries ------>
     <link rel="stylesheet" href="../../page/nonton/queries.css" />
+    <style>
+      .circle-gradient {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, #ffc6c6d8 0%, rgba(255, 0, 150, 0) 80%);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #BD1212;
+            font-size: 16px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .social-links i {
+            font-size: 30px;
+        }
+    </style>
+
   </head>
 
   <body>
@@ -85,6 +121,7 @@
       <p style="text-align: center; padding-top: 40px; color: #FF6384;" class="section-desc"> <strong>Berani mencoba? 
        </strong><br> Ayo mulai sekarang dan lihat seberapa banyak yang sudah kamu ketahui!</p>
     </section>
+    <div class="circle-gradient"></div>
     
     <footer>
       <div class="row footer-about">
@@ -97,16 +134,19 @@
           fakta!
         </p>
         <div class="social-links">
-          <a href="https://www.instagram.com/umminurf?igsh=MmdsNG51ZXBtdGJ4&utm_source=qr">
-            <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/umminurf">
+              <i class="fab fa-instagram"></i>
+              <span>@umminurf</span>
           </a>
-          <a href="https://www.instagram.com/vannoreen?igsh=eDRkd2pya2JtZzl4&utm_source=qr">
-            <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/vannoreen">
+              <i class="fab fa-instagram"></i>
+              <span>@vannoreen</span>
           </a>
-          <a href="https://www.instagram.com/i.ntanmala?igsh=MWI1Y2VvdDV5YTFuMw%3D%3D">
-            <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/i.ntanmala">
+              <i class="fab fa-instagram"></i>
+              <span>@i.ntanmala</span>
           </a>
-        </div>
+      </div>
       </div>
       <p class="footer-copyright">
         Copyright &copy; 2025 RISEBLOOM. All rights reserved.

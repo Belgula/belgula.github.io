@@ -463,16 +463,27 @@
     border-bottom: 2px solid #BD1212;
   }
   .social-links {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-  }
-  .social-links a {
-    font-size: 3rem;
-    text-decoration: none;
-    color: #BD1212;
-  }
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #BD1212;
+            font-size: 16px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .social-links i {
+            font-size: 30px;
+        }
   footer p {
     text-align: center;
     color: #BD1212;
